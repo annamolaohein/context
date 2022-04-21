@@ -2,6 +2,7 @@
 import './App.css';
 import MoviesList from './MoviesList';
 import Nav from './Nav';
+import AddMovie from './AddMovie';
 import { MovieProvider } from './MovieContext';
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
     <MovieProvider>
       <div className="App">
       <Nav/>
+      <AddMovie/>
       <MoviesList/>
     </div>
     </MovieProvider>
